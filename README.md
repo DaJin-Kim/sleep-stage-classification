@@ -68,7 +68,7 @@ Calibration performance was evaluated using **Expected Calibration Error (ECE)**
 
 Example calibration analysis:
 
-![Calibration Plot](images/calibration_plot.png)
+![Calibration_plot](images/Calibration_plot.png)
 
 ---
 
@@ -85,7 +85,8 @@ Two filtering strategies were analyzed:
 
 Example uncertainty filtering analysis:
 
-![Uncertainty Filtering](images/uncertainty_filtering.png)
+![uncertainty_filtering_f1](images/uncertainty_filtering_f1.png)
+![uncertainty_filtering_ece](images/uncertainty_filtering_ece.png)
 
 Only a small portion of epochs (e.g., 5%) are selected for secondary review, which can significantly reduce the manual workload while maintaining reliability.
 
@@ -104,7 +105,7 @@ Evaluation metrics include:
 
 Example classification results:
 
-![Confusion Matrix](images/confusion_matrix.png)
+![result](images/result.png)
 
 The analysis shows that uncertainty-aware filtering can help improve the reliability of automated sleep scoring systems.
 
@@ -115,11 +116,3 @@ The analysis shows that uncertainty-aware filtering can help improve the reliabi
 - Implementation and analysis of **TinySleepNet** for sleep stage classification
 - Evaluation of **model confidence using uncertainty estimation**
 - Investigation of **human-in-the-loop workflows for clinical AI systems**
-
----
-
-# Applications
-
-- Automated sleep stage scoring
-- AI-assisted sleep analysis
-- Clinical decision support systems for sleep medicine
