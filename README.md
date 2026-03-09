@@ -34,7 +34,7 @@ Sleep stages include:
 
 Example hypnogram:
 
-![Hypnogram](images/hypnogram_example.png)
+![Hypnogram](images/Hypnogram.png)
 
 ---
 
@@ -50,7 +50,7 @@ Key components:
 
 Model architecture overview:
 
-![Model Pipeline](images/pipeline.png)
+![Model_Pipeline](images/Model_Pipeline.png)
 
 TinySleepNet was selected due to its strong performance and efficiency in sleep stage classification tasks.
 
